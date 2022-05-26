@@ -39,12 +39,12 @@
     if (lightSwitch.checked) {
       body.classList.remove('lights-off')
       if (labelText) {
-        labelText.innerHTML = 'Темнее'
+        labelText.innerHTML = 'Ночь'
       }
     } else {
       body.classList.add('lights-off')
       if (labelText) {
-        labelText.innerHTML = 'Светлее'
+        labelText.innerHTML = 'День'
       }
     }
   }
